@@ -237,7 +237,7 @@ img {
 }
 .tim-box{
     background-color: #F4F4FD;
-    padding: 24px 0;
+    padding: 120px 0;
 }
 .time-title{
     font-size: 36px;
@@ -295,13 +295,12 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .imgn-title{
+    margin-bottom: 8px;
     line-height:1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500
-    
-    
 }
 .down-block{
    background-color: #2e2f42;
