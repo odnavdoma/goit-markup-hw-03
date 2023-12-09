@@ -50,6 +50,7 @@ img {
     display: flex;
     align-items: center;
     margin-right: auto;
+    padding: 24px 0 24px;
 }
   
 .top-line{
@@ -170,6 +171,10 @@ img {
     font-family: "Roboto", sans-serif;
     display: block;
     margin: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button-text:hover{
     background-color:#404BBF;   
