@@ -7,17 +7,49 @@ a{
     text-decoration: none;
 }
 ul{
+ margin: 0;
+ padding: 0;
     list-style-type: none;
 }
 h1,
-h2{
-    text-align: center;
+h2,
+h3,
+p{
+    margin: 0;
+    padding: 0;
+    
 }
 h3{
     font-size: 20;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 .header:hover{
     color: #404bbf;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .time-title,
+  .title-portfolio{
+    margin-bottom: 72px;
+    margin-top: 120px;
+    
+  }
+/* 1 блок */
+.top-line{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header{
+
 }
 .logo{
     color: #4D5AE5;
@@ -83,6 +115,7 @@ h3{
 .adress-link:focus{
     color: #404bbf;
 }
+/* 2 блок */
 .title{
     background-color: #2e2f42;
 }
